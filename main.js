@@ -1,4 +1,4 @@
-import './style.css'
+// import './style.css'
 
 
 // target all answers in the HTML document
