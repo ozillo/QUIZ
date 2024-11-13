@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div class="container">
+
+      <!-- each question in this "faq"  comprises a details element
+        in said details element:
+          a summary element provides the actual question
+          a div contains then four possible answers
+    
+        in the JS script, upon choosing an answer, the correct answer is applied a class which visually remarks its rightful nature
+      -->
+    
+      <div class="question">
+        <details>
+          <summary>
+            <h2>Que Pais adoran la pasta?</h2>
+          </summary>
+          <div class="answers">
+            <div class="answer">
+              Francia
+            </div>
+            <div class="answer">
+              Alemania
+            </div>
+            <div class="answer">
+              España
+            </div>
+            <div class="answer correct-answer">
+              Italia
+            </div>
+          </div>
+        </details>
+      </div><!-- close question div -->
+    
+      <div class="question">
+        <details>
+          <summary>
+            <h2>Which CSS property creates this background?</h2>
+          </summary>
+          <div class="answers">
+            <div class="answer">
+              mask
+            </div>
+            <div class="answer correct-answer">
+              clip-path
+            </div>
+            <div class="answer">
+              border
+            </div>
+            <div class="answer">
+              background
+            </div>
+          </div>
+        </details>
+      </div><!-- close question div -->
+    
+      <div class="question">
+        <details>
+          <summary>
+            <h2>Which color is <span class="highlight">not</span> used in this page?</h2>
+          </summary>
+          <div class="answers">
+            <div class="answer">
+              #422980
+            </div>
+            <div class="answer">
+              #EB761F
+            </div>
+            <div class="answer correct-answer">
+              #252525
+            </div>
+            <div class="answer">
+              #00D539
+            </div>
+          </div>
+        </details>
+      </div><!-- close question div -->
+    
+      <div class="question">
+        <details>
+          <summary>
+            <h2>Which font is used in this page?</h2>
+          </summary>
+          <div class="answers">
+            <div class="answer correct-answer">
+              Source Sans Pro
+            </div>
+            <div class="answer">
+              Open Sans
+            </div>
+            <div class="answer">
+              Lato
+            </div>
+            <div class="answer">
+              Montserrat
+            </div>
+          </div>
+        </details>
+      </div><!-- close question div -->
+    
+      <div class="question">
+        <details>
+          <summary>
+            <h2>Which layout system arranges the elements of this page?</h2>
+          </summary>
+          <div class="answers">
+            <div class="answer">
+              Grid
+            </div>
+            <div class="answer">
+              Flexbox
+            </div>
+            <div class="answer">
+              Neither
+            </div>
+            <div class="answer correct-answer">
+              Both
+            </div>
+          </div>
+        </details>
+      </div><!-- close question div -->
+    
+      <h1 class="result"></h1>
+    
+    </div><!-- close the wrapping .container div -->   
+<script src="main.js"></script>   
+  </body>
+</html>
