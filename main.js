@@ -182,21 +182,21 @@ function displayResult(number) {
     let comment = '';
         switch(number) {
             case 5:
-                comment = "Venecia 😎";
+                comment = "https://collection.cloudinary.com/dw9b8eqmc/7e7b57ce726da69254a55aeaec5608ad? 😎";
                 break;
             case 4:
             case 3:
-                comment = "Venecia 😉";
+                comment = "https://collection.cloudinary.com/dw9b8eqmc/7e7b57ce726da69254a55aeaec5608ad? 😉";
                 break;
             case 2:
             case 1:
-                comment = "Venecia 😏";
+                comment = "https://collection.cloudinary.com/dw9b8eqmc/7e7b57ce726da69254a55aeaec5608ad? 😏";
                 break;
                 break;
             case 0:
-                comment = "Venecia 😶";
+                comment = "https://collection.cloudinary.com/dw9b8eqmc/7e7b57ce726da69254a55aeaec5608ad? 😶";
                 break;
         }
         // include in the main header the result and the comment
-        headerResult.textContent = `${number} Correct Answers ${comment}`;
+        headerResult.textContent = `${number} Respuestas correctas ${comment}`;
 }
